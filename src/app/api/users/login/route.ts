@@ -42,10 +42,7 @@ export async function POST(request:NextRequest){
         })
 
         return responce
-
-
-
-        
+           
     } catch (error:any) {
         console.log("error in login");
         throw new Error(error.message)
